@@ -1,0 +1,3 @@
+web npm install
+web npm i -g react-scripts
+web npm start
