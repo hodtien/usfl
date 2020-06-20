@@ -14,7 +14,7 @@ export class Event extends Component {
             <div className="col-12 col-md mt-4">
                 <div className="card col-12" style={{backgroundColor:'transparent',border:'none'}}>
                     <div><img src={EventsImage[parseInt(this.props.serial)]} style={{width: '100%',height:'190px'}}/></div>
-                    <div className="mt-2"><Link to='/event-detail' style={{color: 'black'}}><b>{this.props.title}</b></Link></div>
+                    <div className="mt-2"><Link style={{color: 'black'}}><b>{this.props.title}</b></Link></div>
                 </div>
             </div>
         )

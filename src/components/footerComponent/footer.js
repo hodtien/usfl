@@ -13,7 +13,7 @@ export class Footer extends Component {
                     <div className="container">
                         <form className="col-12">
                             <div className="row col-12" style={{margin: 0}}>
-                                <img className="d-none d-lg-inline-block col-2" src={logoSmall} style={{height: '125px',margin: '30px auto'}} />
+                                <img className="d-inline-block col-7 col-lg-2" src={logoSmall} style={{height: '150px',margin: '30px auto'}} />
                                 <form className="col-12 col-sm-6 col-lg-3" style={{margin: '30px auto'}}>
                                     <div className="form-group">
                                         <h4 style={{color: '#fff'}}><strong>Your Library</strong></h4>

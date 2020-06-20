@@ -19,7 +19,7 @@ export class BlogsContainer extends Component {
                     tôi có. Dù như thế nào thì hành trang của tôi không thể thiếu cuốn sách này.' userName='ntmthuy'/>
                 </div>
             
-                <Link to='/blog'>
+                <Link>
                     <button className="btn btn-primary border-0 rounded-pill mt-4 mb-4" style={{backgroundColor: '#F15922',height: '40px',width: '150px',margin: '0px auto'}}>
                         <b>...See More</b>
                     </button>

@@ -15,7 +15,7 @@ export class UpdatePost extends Component {
                         <img src={Updates[parseInt(this.props.serial)]} style={{width: '100%'}}/>
                     </div>
                     <div className="col-7" style={{margin: 'auto 0px'}}>
-                        <Link to='/update-detail'><label className="text-left" style={{color: 'black'}}><b>{this.props.title}</b></label></Link>
+                        <Link><label className="text-left" style={{color: 'black'}}><b>{this.props.title}</b></label></Link>
                         <p className="text-justify" style={{fontSize: '14px'}}>{this.props.info}</p>
                     </div>
                 </div>

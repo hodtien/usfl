@@ -69,7 +69,7 @@ export class BookDetail extends Component {
                                 </div>
 
                                 <div className="col-sm-12 row" style={{padding: 0, marginTop: '30px'}}>
-                                    <div className="col-sm-4 col-lg-3 text-left mt-2" style={{color: '#1429D7', padding: 0}}>Availability: &nbsp;<b>{this.props.availability}</b></div>
+                                    <div className="col-sm-4 col-lg-3 text-left mt-3" style={{color: '#1429D7', padding: 0}}>Availability: &nbsp;<b>{this.props.availability}</b></div>
                                     <button className="col-5 col-sm-3 col-lg-4 btn btn-primary border-0 rounded-pill mt-2" type='button' style={{color: 'white',backgroundColor: '#1429D7',height: '40px',margin: '0px auto'}}><b>Place hold</b></button>
                                     <button className="col-5 col-sm-3 col-lg-4 btn btn-primary border-0 rounded-pill mt-2" type='button' style={{color: 'white',backgroundColor: '#1429D7',height: '40px',margin: '0px auto'}}><b>Borrow</b></button>
                                 </div>
