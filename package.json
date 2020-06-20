@@ -13,7 +13,6 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "install": "npm install",
     "update": "npm i -g react-scripts",
     "start": "react-scripts start",
     "build": "react-scripts build",
